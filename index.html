@@ -1,0 +1,1082 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Dentist Clinic | Creating Beautiful, Healthy Smiles</title>
+    <meta name="description" content="Apna Dentist / Clinic - Experience gentle, advanced, and pain-free dental care by Dr. Apna. Root Canal, Dental Implants, Clear Aligners, Teeth Whitening & 24/7 Emergency Care." />
+    <meta property="og:title" content="Apna Dentist Clinic | Creating Beautiful, Healthy Smiles" />
+    <meta property="og:description" content="Premier dental practice by Dr. Apna offering world-class dental care, modern 3D technology, and pain-free treatments." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts (Outfit & Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Strictly Relative Stylesheet for GitHub Pages Compatibility -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Strictly Relative Script for GitHub Pages Compatibility -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- TOP ANNOUNCEMENT & CONTACT BAR -->
+    <div id="topBar" class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-left">
+          <span class="top-info-item" id="clinicLiveStatus">
+            <span class="pulse-dot"></span> Open Today: 9:00 AM - 8:30 PM
+          </span>
+          <span class="top-info-item">
+            <i class="fa-solid fa-location-dot"></i> Suite 102, HealthCare Avenue, Metro Pillar 42
+          </span>
+        </div>
+        <div class="top-bar-right">
+          <a href="tel:+919876543210" class="top-info-item">
+            <i class="fa-solid fa-phone"></i> +91 98765 43210
+          </a>
+          <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20dental%20treatments" target="_blank" rel="noopener noreferrer" class="top-info-item">
+            <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- STICKY NAVBAR -->
+    <header id="navbar" class="navbar">
+      <div class="container navbar-inner">
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-logo" id="brandLogoLink">
+          <div class="brand-icon-box">
+            <i class="fa-solid fa-tooth"></i>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">APNA <span>CLINIC</span></span>
+            <span class="brand-subtitle">Multi-Speciality Dental Care</span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About Clinic</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#gallery" class="nav-link">Photo Gallery</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            <li><a href="#contact" class="nav-link">Contact & Hours</a></li>
+          </ul>
+        </nav>
+
+        <!-- Nav CTAs & Mobile Hamburger -->
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary btn-sm" id="navBookBtn">
+            <i class="fa-regular fa-calendar-check"></i> Book Appointment
+          </a>
+          <div class="hamburger" id="hamburgerBtn" aria-label="Toggle mobile menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MOBILE DRAWER & OVERLAY -->
+    <div id="mobileOverlay" class="mobile-overlay"></div>
+    <aside id="mobileNavDrawer" class="mobile-nav-drawer" aria-label="Mobile Navigation Menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link"><span>Home</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#about" class="mobile-nav-link"><span>About Dr. Apna</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#services" class="mobile-nav-link"><span>Dental Services</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#gallery" class="mobile-nav-link"><span>Clinic Gallery</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#reviews" class="mobile-nav-link"><span>Patient Testimonials</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+        <li><a href="#contact" class="mobile-nav-link"><span>Contact & Location</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+      </ul>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 2rem;">
+        <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <a href="tel:+919876543210" class="btn btn-outline-primary">
+          <i class="fa-solid fa-phone"></i> Call +91 98765 43210
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-content reveal">
+            <!-- Trust Badge -->
+            <div class="hero-badge">
+              <span class="stars">★★★★★</span>
+              <span>4.9/5 Rating (1,200+ Happy Smiles) • ISO 9001 Certified</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="hero-title">
+              Creating <span>Beautiful</span>, Healthy Smiles with Gentle Care
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="hero-description">
+              Welcome to Apna Dentist / Clinic. Led by Dr. Apna (MDS), we combine painless modern dentistry, low-radiation 3D imaging, and warm patient hospitality for the ultimate dental experience.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-cta-group">
+              <a href="#services" class="btn btn-outline-light" id="heroServicesBtn">
+                <i class="fa-solid fa-tooth"></i> Our Services
+              </a>
+              <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="heroWhatsappBtn">
+                <i class="fa-brands fa-whatsapp"></i> Book via WhatsApp
+              </a>
+              <a href="#contact" class="btn btn-primary" id="heroApptBtn">
+                <i class="fa-regular fa-calendar-check"></i> Book Online
+              </a>
+            </div>
+
+            <!-- Key Feature Strip -->
+            <div class="hero-features-strip">
+              <div class="hero-feature-pill">
+                <div class="feature-pill-icon">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="feature-pill-text">
+                  <h4>100% Painless Care</h4>
+                  <p>Computer-assisted gentle anesthesia</p>
+                </div>
+              </div>
+
+              <div class="hero-feature-pill">
+                <div class="feature-pill-icon">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="feature-pill-text">
+                  <h4>15+ Years Mastery</h4>
+                  <p>Expert surgeon Dr. Apna (MDS)</p>
+                </div>
+              </div>
+
+              <div class="hero-feature-pill">
+                <div class="feature-pill-icon">
+                  <i class="fa-solid fa-truck-medical"></i>
+                </div>
+                <div class="feature-pill-text">
+                  <h4>24/7 Dental Emergency</h4>
+                  <p>Immediate pain relief protocols</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="about-section section-padding">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Left: Doctor & Clinic Image -->
+            <div class="about-image-wrapper reveal">
+              <div class="about-image-card">
+                <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" alt="Dr. Apna - Senior Dental Surgeon" loading="lazy" />
+                <div class="about-badge-verified">
+                  <i class="fa-solid fa-circle-check"></i> Certified Dental Surgeon
+                </div>
+                <div class="about-badge-exp">
+                  <div class="exp-number">15+</div>
+                  <div class="exp-text">
+                    Years Of<br />Clinical Excellence
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Clinic Philosophy & Technology -->
+            <div class="about-content reveal delay-1">
+              <span class="about-content-tag">ABOUT DR. APNA & OUR CLINIC</span>
+              <h2 class="about-title">A Modern Dental Sanctuary Dedicated to Your Comfort</h2>
+              <p class="about-lead">
+                "We believe every patient deserves a fearless, transparent, and comforting dental journey where oral health meets artistic smile design."
+              </p>
+              <p class="about-paragraph">
+                At <strong>Apna Dental Clinic</strong>, Dr. Apna brings over a decade and a half of clinical expertise in restorative, cosmetic, and surgical dentistry. Our clinic is specifically engineered to eradicate dental anxiety through soothing acoustic interiors, ergonomically crafted dental chairs, and compassionate chairside care.
+              </p>
+
+              <!-- Trust Pillars -->
+              <div class="trust-pillars">
+                <div class="trust-pillar-item">
+                  <div class="pillar-icon">
+                    <i class="fa-solid fa-microscope"></i>
+                  </div>
+                  <div class="pillar-text">
+                    <h4>Advanced 3D Imaging</h4>
+                    <p>Ultra-low radiation digital panoramic scans for accurate diagnosis.</p>
+                  </div>
+                </div>
+
+                <div class="trust-pillar-item">
+                  <div class="pillar-icon">
+                    <i class="fa-solid fa-pump-soap"></i>
+                  </div>
+                  <div class="pillar-text">
+                    <h4>Class-B Sterilization</h4>
+                    <p>Hospital-grade 5-stage autoclaving ensuring 100% infection-free safety.</p>
+                  </div>
+                </div>
+
+                <div class="trust-pillar-item">
+                  <div class="pillar-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                  </div>
+                  <div class="pillar-text">
+                    <h4>Fear-Free Treatments</h4>
+                    <p>Painless micro-rotary equipment and comfort-first approach for all ages.</p>
+                  </div>
+                </div>
+
+                <div class="trust-pillar-item">
+                  <div class="pillar-icon">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                  </div>
+                  <div class="pillar-text">
+                    <h4>Transparent Pricing</h4>
+                    <p>Detailed treatment plans with zero hidden fees or surprises.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stats Counter Strip -->
+              <div class="stats-strip">
+                <div class="stat-item">
+                  <span class="stat-num">12K+</span>
+                  <span class="stat-label">Happy Patients</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">15+</span>
+                  <span class="stat-label">Years Practicing</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">99.4%</span>
+                  <span class="stat-label">Success Rate</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">10+</span>
+                  <span class="stat-label">Specialities</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section id="services" class="services-section section-padding">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header reveal">
+            <span class="section-tag"><i class="fa-solid fa-stethoscope"></i> OUR CLINICAL EXPERTISE</span>
+            <h2 class="section-title">Comprehensive Dental Treatments</h2>
+            <p class="section-subtitle">
+              From preventative cleanings to complex smile reconstructions, Dr. Apna utilizes modern dentistry protocols to restore optimal oral health and natural aesthetics.
+            </p>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="filter-tabs reveal delay-1">
+            <button class="filter-btn active" data-filter="all">All Treatments</button>
+            <button class="filter-btn" data-filter="cosmetic">Cosmetic & Aesthetics</button>
+            <button class="filter-btn" data-filter="restorative">Restorative & Surgical</button>
+            <button class="filter-btn" data-filter="preventive">Preventive & Kids</button>
+          </div>
+
+          <!-- Services Grid -->
+          <div class="services-grid" id="servicesContainer">
+            <!-- 1. Root Canal Treatment -->
+            <div class="service-card reveal" data-category="restorative">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-tooth"></i>
+                </div>
+                <span class="service-tag">Painless & Single Sitting</span>
+                <h3 class="service-title">Root Canal Treatment</h3>
+                <p class="service-desc">
+                  Save infected or damaged natural teeth painlessly using advanced rotary endodontics and computerized apex locators.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Single-visit painless protocol</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Precision rotary canal cleaning</li>
+                  <li><i class="fa-solid fa-circle-check"></i> High-durability Zirconia crown fitting</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Root%20Canal%20Treatment" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 2. Teeth Whitening -->
+            <div class="service-card reveal delay-1" data-category="cosmetic">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <span class="service-tag">Laser Powered Whitening</span>
+                <h3 class="service-title">Teeth Whitening</h3>
+                <p class="service-desc">
+                  Safely brighten your smile up to 8 shades lighter in just 45 minutes using enamel-safe cold-light laser technology.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Removes coffee, tea & smoking stains</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Zero tooth sensitivity formula</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Long-lasting luminous results</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Teeth%20Whitening" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 3. Orthodontics & Clear Aligners -->
+            <div class="service-card reveal delay-2" data-category="cosmetic">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-teeth-open"></i>
+                </div>
+                <span class="service-tag">Invisible & Comfortable</span>
+                <h3 class="service-title">Orthodontics & Aligners</h3>
+                <p class="service-desc">
+                  Straighten crooked teeth, close gaps, and correct bite issues with virtually invisible clear aligners or ceramic braces.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> 3D digital smile simulation before starting</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Removable, discreet clear trays</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Suitable for teens and adults</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Clear%20Aligners" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 4. Dental Implants -->
+            <div class="service-card reveal delay-3" data-category="restorative">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <span class="service-tag">Permanent Tooth Replacement</span>
+                <h3 class="service-title">Dental Implants</h3>
+                <p class="service-desc">
+                  Restore missing teeth permanently with medical-grade titanium implants that look, feel, and function like natural teeth.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Lifetime durability & bone preservation</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Single tooth & full-arch solutions</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Guided surgical placement for high precision</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Dental%20Implants" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 5. General Checkup & Ultrasonic Cleaning -->
+            <div class="service-card reveal" data-category="preventive">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-shield-virus"></i>
+                </div>
+                <span class="service-tag">Essential Preventive Care</span>
+                <h3 class="service-title">Checkup & Deep Cleaning</h3>
+                <p class="service-desc">
+                  Thorough oral examination, ultrasonic plaque & tartar scaling, and protective enamel polishing to prevent gum diseases.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> High-definition intraoral camera review</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Gentle ultrasonic tartar scaling</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Personalized oral hygiene guidance</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Dental%20Checkup%20and%20Cleaning" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 6. Cosmetic Smile Makeover -->
+            <div class="service-card reveal delay-1" data-category="cosmetic">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-gem"></i>
+                </div>
+                <span class="service-tag">Artistic Aesthetics</span>
+                <h3 class="service-title">Cosmetic Smile Makeover</h3>
+                <p class="service-desc">
+                  Transform chipped, worn, or uneven teeth with handcrafted porcelain veneers, composite bonding, and gum contouring.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Ultra-thin porcelain veneers</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Seamless color-matched tooth bonding</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Facial harmony smile architecture</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Smile%20Makeover" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 7. Pediatric Dentistry -->
+            <div class="service-card reveal delay-2" data-category="preventive">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-child"></i>
+                </div>
+                <span class="service-tag">Child Friendly & Caring</span>
+                <h3 class="service-title">Pediatric Dental Care</h3>
+                <p class="service-desc">
+                  A playful, warm atmosphere designed to cultivate positive dental habits in children, with fluoride therapy and cavity prevention.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Kid-friendly gentle dentists</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Pit & fissure preventive sealants</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Fun educational dental visits</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20inquire%20about%20Pediatric%20Dental%20Care" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Inquire
+                </a>
+                <a href="#contact" class="service-btn">
+                  Book Visit <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 8. Emergency Dental Care -->
+            <div class="service-card reveal delay-3" data-category="restorative">
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i class="fa-solid fa-kit-medical"></i>
+                </div>
+                <span class="service-tag">Immediate Same-Day Relief</span>
+                <h3 class="service-title">Emergency Dental Care</h3>
+                <p class="service-desc">
+                  Rapid intervention for severe toothache, knocked-out teeth, broken restorations, or oral trauma to alleviate pain fast.
+                </p>
+                <ul class="service-perks">
+                  <li><i class="fa-solid fa-circle-check"></i> Same-day emergency walk-ins</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Instant pain management therapy</li>
+                  <li><i class="fa-solid fa-circle-check"></i> On-call dental trauma surgeon</li>
+                </ul>
+              </div>
+              <div class="service-footer">
+                <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20have%20an%20URGENT%20dental%20emergency%21" target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-sm btn">
+                  <i class="fa-brands fa-whatsapp"></i> Urgent Help
+                </a>
+                <a href="tel:+919876543210" class="service-btn">
+                  Call Now <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHOTO GALLERY SECTION -->
+      <section id="gallery" class="gallery-section section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag"><i class="fa-regular fa-images"></i> CLINIC TOUR & RESULTS</span>
+            <h2 class="section-title">Experience Our Modern Infrastructure</h2>
+            <p class="section-subtitle">
+              Browse through our pristine clinical operatories, state-of-the-art diagnostic instruments, and life-changing smile transformations.
+            </p>
+          </div>
+
+          <!-- Gallery Filter Buttons -->
+          <div class="filter-tabs reveal delay-1">
+            <button class="filter-btn gallery-filter-btn active" data-gallery-filter="all">All Photos</button>
+            <button class="filter-btn gallery-filter-btn" data-gallery-filter="interior">Clinic Interior</button>
+            <button class="filter-btn gallery-filter-btn" data-gallery-filter="equipment">Equipment & Tech</button>
+            <button class="filter-btn gallery-filter-btn" data-gallery-filter="smiles">Patient Smiles</button>
+          </div>
+
+          <!-- Gallery Grid -->
+          <div class="gallery-grid">
+            <!-- 1. Operatory -->
+            <div class="gallery-item reveal" data-category="interior">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=80" alt="Advanced Dental Operatory with Ergonomic Dental Chair" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">Advanced Dental Operatory</h4>
+                <span class="gallery-category">Clinic Interior</span>
+              </div>
+            </div>
+
+            <!-- 2. Reception -->
+            <div class="gallery-item reveal delay-1" data-category="interior">
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1000&q=80" alt="Comfortable Patient Lounge and Reception" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">Welcoming Reception Lounge</h4>
+                <span class="gallery-category">Clinic Interior</span>
+              </div>
+            </div>
+
+            <!-- 3. Equipment -->
+            <div class="gallery-item reveal delay-2" data-category="equipment">
+              <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1000&q=80" alt="Digital Diagnostics and Intraoral Scanning" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">3D Digital Scan Station</h4>
+                <span class="gallery-category">Equipment & Tech</span>
+              </div>
+            </div>
+
+            <!-- 4. Smile Result -->
+            <div class="gallery-item reveal" data-category="smiles">
+              <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1000&q=80" alt="Bright and Radiant Smile Result" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">Cosmetic Smile Restoration</h4>
+                <span class="gallery-category">Patient Smiles</span>
+              </div>
+            </div>
+
+            <!-- 5. Doctor & Consultation -->
+            <div class="gallery-item reveal delay-1" data-category="interior">
+              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80" alt="Doctor patient gentle consultation" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">Compassionate Consultation</h4>
+                <span class="gallery-category">Clinic Experience</span>
+              </div>
+            </div>
+
+            <!-- 6. Sterilization Center -->
+            <div class="gallery-item reveal delay-2" data-category="equipment">
+              <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1000&q=80" alt="Ultrasonic Precision Instruments and Sterilization" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                <h4 class="gallery-title">Precision Instruments Suite</h4>
+                <span class="gallery-category">Equipment & Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <section id="reviews" class="testimonials-section section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag"><i class="fa-solid fa-comment-dots"></i> PATIENT FEEDBACK</span>
+            <h2 class="section-title">Trusted by Over 12,000 Happy Smiles</h2>
+            <p class="section-subtitle">
+              Read authentic feedback from patients who overcame their dental fears and revitalized their confidence with Dr. Apna.
+            </p>
+          </div>
+
+          <!-- Social Proof Badge -->
+          <div class="reviews-summary-badge reveal">
+            <i class="fa-brands fa-google google-icon"></i>
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span class="summary-score">4.9</span>
+                <span class="summary-stars">★★★★★</span>
+              </div>
+              <span class="summary-text">Verified Google Reviews rating from 350+ patients</span>
+            </div>
+          </div>
+
+          <!-- Testimonials Grid -->
+          <div class="testimonials-slider">
+            <div class="testimonials-track">
+              <!-- Review 1 -->
+              <div class="testimonial-card reveal">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote">
+                  "I was terrified of having a root canal due to a past traumatic experience. Dr. Apna completely altered my perspective! The procedure was 100% painless, completed in a single visit, and his calm reassurance made me feel so comfortable."
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Priya Sharma" class="reviewer-avatar" loading="lazy" />
+                  <div class="reviewer-info">
+                    <h4>Priya Sharma</h4>
+                    <span class="reviewer-treatment">Root Canal & Zirconia Crown</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 2 -->
+              <div class="testimonial-card reveal delay-1">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote">
+                  "Got clear aligners for my crooked front teeth. Dr. Apna mapped out the exact 3D progression on screen before we began. In just 8 months my smile is straight and flawless. The clinic hygiene is top-notch!"
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Rahul Verma" class="reviewer-avatar" loading="lazy" />
+                  <div class="reviewer-info">
+                    <h4>Rahul Verma</h4>
+                    <span class="reviewer-treatment">Clear Aligners & Whitening</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 3 -->
+              <div class="testimonial-card reveal delay-2">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-quote">
+                  "As a healthcare professional myself, sterilization and cleanliness are my primary criteria. Apna Dental Clinic maintains hospital-standard autoclaving and single-use kits. Exemplary ethics and zero overtreatment."
+                </p>
+                <div class="reviewer-meta">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Dr. Ananya Sen" class="reviewer-avatar" loading="lazy" />
+                  <div class="reviewer-info">
+                    <h4>Dr. Ananya Sen</h4>
+                    <span class="reviewer-treatment">Dental Implants & Preventive Care</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT, APPOINTMENT & HOURS SECTION -->
+      <section id="contact" class="contact-section section-padding">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag"><i class="fa-regular fa-clock"></i> GET IN TOUCH</span>
+            <h2 class="section-title">Schedule Your Visit Today</h2>
+            <p class="section-subtitle">
+              Book your consultation online or connect directly on WhatsApp with our friendly desk staff. We're here to assist with all your dental needs.
+            </p>
+          </div>
+
+          <div class="contact-layout-grid">
+            <!-- Left: Clinic Info & Hours -->
+            <div class="clinic-info-card reveal">
+              <div>
+                <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--primary-deep); margin-bottom: 0.5rem; font-weight: 700;">
+                  Apna Dentist / Clinic
+                </h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">
+                  Conveniently situated in the city center with dedicated patient valet parking and elevator accessibility.
+                </p>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-block">
+                <div class="contact-block-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-block-text">
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                  <p style="font-size: 0.8rem; color: var(--text-light);">Direct reception desk</p>
+                </div>
+              </div>
+
+              <!-- WhatsApp -->
+              <div class="contact-block">
+                <div class="contact-block-icon" style="background: #e8fced; color: var(--whatsapp-color);">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="contact-block-text">
+                  <h4>WhatsApp Chat</h4>
+                  <p>
+                    <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener noreferrer">
+                      Chat with Dr. Apna Team (+91 98765 43210)
+                    </a>
+                  </p>
+                  <p style="font-size: 0.8rem; color: var(--text-light);">Instant reply during clinic hours</p>
+                </div>
+              </div>
+
+              <!-- Instagram -->
+              <div class="contact-block">
+                <div class="contact-block-icon" style="background: #fdf2f8; color: #db2777;">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="contact-block-text">
+                  <h4>Instagram Profile</h4>
+                  <p>
+                    <a href="https://instagram.com/apnadentalclinic" target="_blank" rel="noopener noreferrer">
+                      @apnadentalclinic
+                    </a>
+                  </p>
+                  <p style="font-size: 0.8rem; color: var(--text-light);">Follow for smile tips & before/after transformations</p>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="contact-block">
+                <div class="contact-block-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-block-text">
+                  <h4>Clinic Address</h4>
+                  <p>
+                    Suite 102, HealthCare Avenue, Opp. City Hospital, Metro Pillar 42, New Delhi, 110001
+                  </p>
+                </div>
+              </div>
+
+              <!-- Operating Hours Table -->
+              <div class="hours-box">
+                <div class="hours-header">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Clinic Opening Hours</span>
+                </div>
+                <ul class="hours-list">
+                  <li class="hours-row">
+                    <span class="hours-day">Monday – Friday</span>
+                    <span class="hours-time">9:00 AM – 8:30 PM</span>
+                  </li>
+                  <li class="hours-row">
+                    <span class="hours-day">Saturday</span>
+                    <span class="hours-time">9:00 AM – 8:00 PM</span>
+                  </li>
+                  <li class="hours-row">
+                    <span class="hours-day">Sunday</span>
+                    <span class="hours-time">10:00 AM – 2:00 PM (Prior Appt.)</span>
+                  </li>
+                  <li class="hours-row">
+                    <span class="hours-day" style="color: #dc2626;">Emergency Care</span>
+                    <span class="hours-time" style="color: #dc2626; font-weight: 700;">24/7 On-Call Support</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Appointment Form -->
+            <div class="booking-card reveal delay-1">
+              <div class="booking-header">
+                <h3 class="booking-title">Book an Appointment</h3>
+                <p class="booking-desc">
+                  Fill in your preferred schedule. You can submit directly online or click "Book via WhatsApp" to send your appointment request with one tap!
+                </p>
+              </div>
+
+              <form id="appointmentForm">
+                <div class="form-grid">
+                  <!-- Patient Name -->
+                  <div class="form-group">
+                    <label for="patientName" class="form-label">Full Name *</label>
+                    <input type="text" id="patientName" class="form-input" placeholder="e.g. John Doe" required />
+                  </div>
+
+                  <!-- Contact Phone -->
+                  <div class="form-group">
+                    <label for="patientPhone" class="form-label">Phone / WhatsApp *</label>
+                    <input type="tel" id="patientPhone" class="form-input" placeholder="+91 98765 XXXXX" required />
+                  </div>
+
+                  <!-- Preferred Date -->
+                  <div class="form-group">
+                    <label for="bookingDate" class="form-label">Preferred Date *</label>
+                    <input type="date" id="bookingDate" class="form-input" required />
+                  </div>
+
+                  <!-- Preferred Time Slot -->
+                  <div class="form-group">
+                    <label for="bookingSlot" class="form-label">Time Slot *</label>
+                    <select id="bookingSlot" class="form-select" required>
+                      <option value="Morning (9:00 AM - 12:00 PM)">Morning (9:00 AM - 12:00 PM)</option>
+                      <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12:00 PM - 4:00 PM)</option>
+                      <option value="Evening (4:00 PM - 8:30 PM)">Evening (4:00 PM - 8:30 PM)</option>
+                    </select>
+                  </div>
+
+                  <!-- Treatment Service -->
+                  <div class="form-group full-width">
+                    <label for="bookingService" class="form-label">Service Needed *</label>
+                    <select id="bookingService" class="form-select" required>
+                      <option value="General Consultation & Checkup">General Consultation & Checkup</option>
+                      <option value="Root Canal Treatment">Root Canal Treatment (Painless)</option>
+                      <option value="Teeth Whitening">Laser Teeth Whitening</option>
+                      <option value="Clear Aligners / Braces">Orthodontics & Clear Aligners</option>
+                      <option value="Dental Implants">Dental Implants</option>
+                      <option value="Cosmetic Smile Makeover">Cosmetic Smile Makeover / Veneers</option>
+                      <option value="Pediatric Dental Care">Pediatric / Kids Dentistry</option>
+                      <option value="Emergency Toothache Relief">Emergency Toothache / Relief</option>
+                    </select>
+                  </div>
+
+                  <!-- Notes / Message -->
+                  <div class="form-group full-width">
+                    <label for="patientNotes" class="form-label">Symptoms / Specific Request (Optional)</label>
+                    <textarea id="patientNotes" class="form-textarea" placeholder="Briefly describe your symptoms or any past dental history..."></textarea>
+                  </div>
+
+                  <!-- Action Buttons -->
+                  <div class="booking-btn-group">
+                    <button type="button" id="whatsappBookBtn" class="btn btn-whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i> Book via WhatsApp
+                    </button>
+                    <button type="submit" id="submitFormBtn" class="btn btn-primary">
+                      <i class="fa-regular fa-paper-plane"></i> Submit Request
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION & MAP SECTION -->
+      <section id="location" class="location-section section-padding" style="padding-top: 2rem;">
+        <div class="container">
+          <div class="section-header reveal" style="margin-bottom: 2rem;">
+            <span class="section-tag"><i class="fa-solid fa-map-location-dot"></i> CLINIC LOCATION</span>
+            <h2 class="section-title">Easy to Reach & Conveniently Located</h2>
+            <p class="section-subtitle">
+              Located directly along the Metro corridor with hassle-free parking and ground floor accessibility.
+            </p>
+          </div>
+
+          <div class="map-card-container reveal">
+            <!-- Google Maps Responsive Iframe Placeholder -->
+            <iframe
+              id="clinicMapIframe"
+              class="map-iframe"
+              title="Apna Dental Clinic Location Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112061.09262729792!2d77.10000000000002!3d28.627000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b923791f%3A0xd60414ee3ada2d3!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <!-- Overlay Directions Card -->
+            <div class="map-overlay-info">
+              <h4>Dr. Apna Clinic</h4>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> Suite 102, HealthCare Avenue, Opp. Metro Pillar 42
+              </p>
+              <div style="font-size: 0.8rem; color: #16a34a; font-weight: 600; margin-bottom: 0.75rem;">
+                <i class="fa-solid fa-square-parking"></i> Free Patient Valet Parking
+              </div>
+              <a
+                href="https://maps.google.com/?q=Connaught+Place+New+Delhi"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary btn-sm"
+                style="width: 100%;"
+              >
+                <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FLOATING WHATSAPP CHAT WIDGET -->
+    <div class="floating-whatsapp-container" id="floatingWhatsappContainer">
+      <!-- Chat Tooltip Popup -->
+      <div class="whatsapp-chat-popup" id="whatsappChatPopup">
+        <div class="chat-popup-header">
+          <div class="chat-dr-profile">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=100&q=80" alt="Dr. Apna" class="chat-dr-avatar" />
+            <div class="chat-dr-title">
+              <h5>Dr. Apna Clinic</h5>
+              <span><span class="pulse-dot"></span> Typically replies in 5 mins</span>
+            </div>
+          </div>
+          <button type="button" class="chat-close-btn" id="closeChatPopup" aria-label="Close Chat">&times;</button>
+        </div>
+
+        <div class="chat-popup-body">
+          <div class="chat-message-bubble">
+            Hello! 👋 Welcome to Apna Dental Clinic. How can we help your smile today?
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+            <button type="button" class="filter-btn quick-chat-opt" data-prompt="Hi Dr. Apna, I would like to schedule an appointment." style="text-align: left; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+              📅 Book Appointment
+            </button>
+            <button type="button" class="filter-btn quick-chat-opt" data-prompt="Hi, I am experiencing tooth pain and need an emergency consultation." style="text-align: left; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+              🚨 Emergency Toothache
+            </button>
+            <button type="button" class="filter-btn quick-chat-opt" data-prompt="Hi Dr. Apna, I want to know about treatment prices and clear aligners." style="text-align: left; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+              💳 Inquire Pricing & Aligners
+            </button>
+          </div>
+        </div>
+
+        <div class="chat-popup-actions">
+          <a href="https://wa.me/919876543210?text=Hi%20Dr.%20Apna%2C%20I%20would%20like%20to%20chat%20about%20dental%20treatments" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm" style="width: 100%;">
+            <i class="fa-brands fa-whatsapp"></i> Start WhatsApp Chat
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating Trigger Button -->
+      <button type="button" class="floating-whatsapp-btn" id="floatingWhatsappBtn" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="badge-unread">1</span>
+      </button>
+    </div>
+
+    <!-- LIGHTBOX MODAL VIEWER -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true">
+      <div class="lightbox-content">
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close modal">&times;</button>
+        <img src="" alt="Clinic View" id="lightboxImg" />
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toastNotice" class="toast-notice">
+      <i class="fa-solid fa-circle-check toast-icon"></i>
+      <span id="toastMessage">Inquiry submitted successfully!</span>
+    </div>
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Col 1: Brand -->
+          <div class="footer-brand">
+            <div class="brand-logo">
+              <div class="brand-icon-box">
+                <i class="fa-solid fa-tooth"></i>
+              </div>
+              <div class="brand-text">
+                <span class="brand-title" style="color: #fff;">APNA <span>CLINIC</span></span>
+                <span class="brand-subtitle" style="color: #7dd3fc;">Multi-Speciality Care</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              Dedicated to pain-free, modern, and compassionate dentistry. Creating healthy, radiant smiles that last a lifetime through advanced 3D technology and personalized patient care.
+            </p>
+            <div class="social-icons-row">
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://instagram.com/apnadentalclinic" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div>
+            <h4 class="footer-col-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#hero" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Home</a></li>
+              <li><a href="#about" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> About Dr. Apna</a></li>
+              <li><a href="#services" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Dental Services</a></li>
+              <li><a href="#gallery" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Clinic Tour</a></li>
+              <li><a href="#reviews" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Patient Reviews</a></li>
+              <li><a href="#contact" class="footer-link"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i> Contact & Hours</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Treatments -->
+          <div>
+            <h4 class="footer-col-title">Treatments</h4>
+            <ul class="footer-links">
+              <li><a href="#services" class="footer-link">Root Canal Treatment</a></li>
+              <li><a href="#services" class="footer-link">Laser Teeth Whitening</a></li>
+              <li><a href="#services" class="footer-link">Clear Aligners & Braces</a></li>
+              <li><a href="#services" class="footer-link">Permanent Dental Implants</a></li>
+              <li><a href="#services" class="footer-link">Cosmetic Smile Design</a></li>
+              <li><a href="#services" class="footer-link">Pediatric Dentistry</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Contact & Hours -->
+          <div>
+            <h4 class="footer-col-title">Clinic Timings</h4>
+            <ul class="footer-links" style="font-size: 0.875rem;">
+              <li><strong>Mon - Fri:</strong> 9:00 AM - 8:30 PM</li>
+              <li><strong>Saturday:</strong> 9:00 AM - 8:00 PM</li>
+              <li><strong>Sunday:</strong> 10:00 AM - 2:00 PM</li>
+              <li style="color: #f87171; font-weight: 600;"><strong>Emergency:</strong> 24/7 On-Call</li>
+              <li style="margin-top: 0.5rem;">
+                <a href="tel:+919876543210" style="color: #38bdf8; font-weight: 700;">
+                  <i class="fa-solid fa-phone"></i> +91 98765 43210
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>
+            © 2026 Apna Dentist / Clinic. All rights reserved. Strictly vanilla HTML/CSS/JS ready for GitHub Pages.
+          </div>
+          <div>
+            <a href="#hero" id="backToTopBtn" class="back-to-top-btn">
+              Back to top <i class="fa-solid fa-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

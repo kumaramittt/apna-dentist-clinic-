@@ -1,0 +1,6 @@
+{
+  "name": "Apna Dentist Clinic",
+  "description": "Premium dental clinic website for Dr. Apna featuring comprehensive dental services, clinic gallery, patient reviews, appointment booking, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
